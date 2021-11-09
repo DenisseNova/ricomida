@@ -1,0 +1,66 @@
+
+img {
+  width: 100%;
+}
+.carousel-item img {
+  width: 100%;
+}
+.cambioColor{
+  color: #373a3c;
+  cursor: pointer;
+  user-select: none;
+}
+.rojo{
+  color: #ff0000 !important;
+}
+.card {
+  min-height: 200px;
+}
+.cardDesap .card-title{
+  cursor: pointer;
+  user-select: none;
+}
+.titulo-relacionados{
+  text-align: center;
+}
+.color-section{
+  background-color: #dc3545;
+  color: #ffffff;
+  text-align: center;
+}
+.tip-ricomida{
+  font-family: 'Lobster', cursive;
+}
+
+.color-footer {
+  background-color: #373a3c;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.lista-cards div.card {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.hr {
+  margin: 15px auto;
+  width: 95%;
+  height: 2px;
+  display: block;
+  background-color: #818181;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.carousel-indicators li {
+  border-top: 5px solid black;
+  border-bottom: 3px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 11px;
+}
